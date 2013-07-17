@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin_manifest xmlns="http://www.elgg.org/plugin_manifest/1.8">
+	<name>Elgg Open Graph headers</name>
+	<author>Marcus Povey</author>
+	<version>1.0</version>
+	<category>enhancements</category>
+	<description>Provides generic and object specific Open Graph headers.</description>
+	<website>https://github.com/mapkyca/elgg-opengraph</website>
+	<copyright>Marcus Povey 2013</copyright>
+	<license>GNU General Public License version 2</license>
+	<requires>
+		<type>elgg_release</type>
+		<version>1.8</version>
+	</requires>
+</plugin_manifest>
