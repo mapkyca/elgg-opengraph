@@ -9,7 +9,8 @@
         'og:title' => $vars['title'],
         'og:type' => 'website',
         'og:url' => current_page_url(),
-        'og:site_name' => elgg_get_config('sitename')
+        'og:site_name' => elgg_get_config('sitename'),
+        'og:description' => elgg_get_config('sitedescription')
     ), elgg_get_config('site_opengraph')));
 
 
