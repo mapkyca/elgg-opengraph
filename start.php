@@ -31,6 +31,10 @@ elgg_register_event_handler('init', 'system', function() {
                 $return['og:type'] = 'profile';
             }
             
+            // Set description on some objects
+            if (!empty($object->description))
+				$return['og:description'] = $object->description;
+            
             return $return;
         }
         
