@@ -24,7 +24,7 @@ elgg_register_event_handler('init', 'system', function() {
         { 
             // We can handle this object, so fill out some details
             $return['og:url'] = $object->getUrl();
-            $return['og:image'] = $object->getIcon('large');
+            $return['og:image'] = $object->getIconURL('large');
             
             // User profiles
             if (elgg_instanceof($object, 'user')) {
